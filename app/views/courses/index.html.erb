@@ -1,9 +1,12 @@
 <p id="notice"><%= notice %></p>
+
 <table class="fulltable">
   <thead>
     <tr>
-      <th calss="menu-title">Menu</th>
+      <th calss="menu-title"><%= image_tag('all-breakfast.jpeg', :class => "all-breakfast") %> Menu <%= image_tag('eating-breakfast.jpeg', :class => "eating-breakfast") %></th>
+
     </tr>
+
   </thead>
     <tbody class="table-info">
         <% @courses.each do |course| %>
